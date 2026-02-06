@@ -3,8 +3,9 @@
 .alpackages/
 .alcache/
 
-# VS Code
-.vscode/
+# VS Code - keep launch.json but ignore settings
+.vscode/settings.json
+.vscode/*.code-workspace
 
 # Symbols
 *.g.xlf
@@ -12,3 +13,6 @@
 # Temp files
 *.tmp
 *.bak
+
+# Translations (auto-generated)
+Translations/

@@ -1,0 +1,59 @@
+{
+  "id": "a1b2c3d4-5678-90ab-cdef-testing123456",
+  "name": "Planning Visualizer Tests",
+  "publisher": "Loacher",
+  "version": "1.0.0.0",
+  "brief": "Tests für Planning Visualizer",
+  "description": "Automatisierte Tests für die Planning Visualizer Extension.",
+  "privacyStatement": "https://github.com/kai-loacher-org/bc-planning-visualizer",
+  "EULA": "https://github.com/kai-loacher-org/bc-planning-visualizer/blob/main/LICENSE",
+  "help": "https://github.com/kai-loacher-org/bc-planning-visualizer",
+  "url": "https://github.com/kai-loacher-org/bc-planning-visualizer",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "name": "System Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "name": "Tests-TestLibraries",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "f7d8e9a0-1234-5678-abcd-ef0123456789",
+      "name": "Planning Visualizer",
+      "publisher": "Loacher",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "25.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50150,
+      "to": 50199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "target": "Cloud",
+  "features": [
+    "TranslationFile",
+    "GenerateCaptions"
+  ]
+}

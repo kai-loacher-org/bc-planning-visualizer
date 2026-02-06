@@ -1,0 +1,56 @@
+{
+  "folders": [
+    {
+      "name": "Planning Visualizer",
+      "path": "src"
+    },
+    {
+      "name": "Planning Visualizer Tests",
+      "path": "test"
+    }
+  ],
+  "settings": {
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+      "${CodeCop}",
+      "${UICop}"
+    ],
+    "al.enableCodeActions": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-dynamics-smb.al",
+    "[al]": {
+      "editor.defaultFormatter": "ms-dynamics-smb.al",
+      "editor.tabSize": 4,
+      "editor.insertSpaces": true
+    }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Sandbox - Publish App",
+        "request": "launch",
+        "type": "al",
+        "environmentType": "Sandbox",
+        "environmentName": "sandbox",
+        "startupObjectId": 50100,
+        "startupObjectType": "Page",
+        "breakOnError": "All",
+        "launchBrowser": true,
+        "schemaUpdateMode": "Synchronize"
+      },
+      {
+        "name": "Sandbox - Publish App + Tests",
+        "request": "launch",
+        "type": "al",
+        "environmentType": "Sandbox",
+        "environmentName": "sandbox",
+        "startupObjectId": 130451,
+        "startupObjectType": "Page",
+        "breakOnError": "All",
+        "launchBrowser": true,
+        "schemaUpdateMode": "Synchronize"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+# AL Build artifacts
+*.app
+.alpackages/
+.alcache/
+
+# VS Code
+.vscode/
+
+# Symbols
+*.g.xlf
+
+# Temp files
+*.tmp
+*.bak
